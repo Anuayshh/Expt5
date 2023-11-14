@@ -1,4 +1,7 @@
 # Ex.No:5 Create Your Own Content Providers to get Contacts details.
+
+## DATE : 12/09/2023
+
 ## AIM:
 To create your own content providers to get contacts details using Android Studio.
 
@@ -6,30 +9,36 @@ To create your own content providers to get contacts details using Android Studi
 Android Studio(Latest Version)
 
 ## ALGORITHM:
-Step 1: Open Android Stdio and then click on File -> New -> New project.
 
-Step 2: Then type the Application name as “contentprovider″ and click Next.
+### Step 1:
+Open Android Stdio and then click on File -> New -> New project.
 
-Step 3: Then select the Minimum SDK as shown below and click Next.
+### Step 2:
+Then type the Application name as “contentprovider″ and click Next.
 
-Step 4: Then select the Empty Activity and click Next. Finally click Finish.
+### Step 3: 
+Then select the Minimum SDK as shown below and click Next.
 
-Step 5: Design layout in activity_main.xml.
+### Step 4:
+Then select the Empty Activity and click Next. Finally click Finish.
 
-Step 6: Get contacts details and Display details give in MainActivity file.
+### Step 5: 
+Design layout in activity_main.xml.
 
-Step 7: Save and run the application.
+### Step 6:
+Get contacts details and Display details give in MainActivity file.
+
+### Step 7:
+Save and run the application.
 
 ## PROGRAM:
-~~~
-/*
+```
 Program to print the text create your own content providers to get contacts details.
 Developed by: V R ANU AYSHWARYA
 Registeration Number : 212221040016
-*/
-~~~
+```
 ## Activity_xml File:
-~~~
+```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout             xmlns:android="http://schemas.android.com/apk/res/android"
  xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -49,9 +58,9 @@ Registeration Number : 212221040016
  app:layout_constraintStart_toStartOf="parent"
  app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
-~~~
+```
 ## MainActivity.java File:
-~~~
+```
  package com.example.contactsgetter;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -109,13 +118,13 @@ public void btnGetContactPressed(View view) {
 getPhoneContacts();
  }
 }
-~~~
-## OUTPUT
+```
+## OUTPUT:
 ![265640677-4af2b7ca-eec5-4d40-beb0-3f3df4653bed](https://github.com/Anuayshh/Expt5/assets/127651217/0de72cda-429e-4307-a089-0759c0308267)
 
 ![265640739-891d2c00-0921-405e-ab43-4dc7372f1c12](https://github.com/Anuayshh/Expt5/assets/127651217/db697068-08c5-48b0-92d6-02fe1d715e49)
 
 ![265640795-e01cbe16-fe2a-4967-a15b-e4ca54192278](https://github.com/Anuayshh/Expt5/assets/127651217/b2e73a30-8a9b-4a99-8eb3-d5b6cce0df82)
 
-## RESULT
+## RESULT:
 Thus a Simple Android Application create your own content providers to get contacts details using Android Studio is developed and executed successfully.
